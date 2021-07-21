@@ -1,0 +1,42 @@
+# gitignore
+
+# --- general
+# Object files
+*.o
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+#  Temporary
+.tmp/
+*~
+.#*
+*.swp
+
+# --- dedicated
+
+# test-kitchen
+.kitchen/
+.kitchen.local.yml
+.vault_pass.txt
+
+# Emacs
+.dir-locals.el
+.dir-locals.elc
+
+# js
+package-lock.json
+node_modules/
+dist/

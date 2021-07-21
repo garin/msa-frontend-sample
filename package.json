@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "stimulus": "^2.0.0",
+    "webpack": "^5.45.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
