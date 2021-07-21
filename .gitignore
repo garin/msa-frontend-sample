@@ -37,6 +37,6 @@
 .dir-locals.elc
 
 # js
-package-lock.json
-node_modules/
-dist/
+#package-lock.json
+#node_modules/
+#dist/
